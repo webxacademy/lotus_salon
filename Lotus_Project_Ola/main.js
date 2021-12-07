@@ -34,17 +34,25 @@ for (let i = 0; i < readMore.length; i++) {
   }
 }
 
-let review = document.querySelector(".review-box");
+let review = document.querySelectorAll(".review-box");
 let arrow = document.querySelectorAll(".click");
 arrow[0].onclick = function() {
-
-review.classList.toggle("active");
-  alert("clicked");
+  console.log("clicked");
+  console.log(review.classList);
 };
 
 arrow[1].onclick = function() {
 review.classList.toggle("active");
   alert("clicked");
+}
+
+let abc = function (array1, array2){
+  for (var i = 0; i < array.length; i++) {
+
+    for (var j = 0; j < array2.length; i++) {
+
+    }
+  }
 }
 
 

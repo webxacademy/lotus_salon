@@ -736,13 +736,12 @@ width:80px;
 
 }
 
-.review .control{
+div.control{
   position: relative;
   width: 100%;
 }
 
-.control #left-control,
-.control #right-control{
+#left-control, #right-control {
   position: absolute;
   top:50%;
   font-size: 60px;
@@ -763,17 +762,17 @@ width:80px;
   right:20%;
 }
 
-.review .review-content{
+div.review-content{
   position: relative;
   display: flex;
   width: 350px;
   height: 400px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0 auto;
 
 }
 
-.review-content .review-box{
+div.review-box{
   position: absolute;
   top:0;
   left:0;
@@ -794,7 +793,7 @@ width:80px;
 
 
 
-.review-box .pic-box{
+div.pic-box{
   position: relative;
   width: 100px;
   height: 100px;
@@ -805,7 +804,7 @@ width:80px;
 }
 
 
-.review-box .pic-box img{
+div.pic-box img{
   position: absolute;
   top: 0;
   left: 0;
@@ -815,25 +814,25 @@ width:80px;
 }
 
 
-.review-box .review-message{
+div.review-message{
   text-align: center;
 }
 
 
-.review-box .review-message p{
+div.review-message p{
  font-style: italic;
  margin-top: 20px;
 
 }
 
-.review-box .review-message h3{
+div.review-message h3{
   margin: 50px 0 20px;
 }
 
 
 /*   TEAM   */
 
-.wrapper{
+div.wrapper{
 
   display: flex;
   align-items: center;
@@ -843,7 +842,7 @@ width:80px;
 
 }
 
-.wrapper .card {
+ div.card {
   position: relative;
   max-width: 300px;
   height: 260px;
@@ -858,11 +857,11 @@ width:80px;
   line-height: 22px;
 }
 
-.wrapper .card:hover{
-  height: 420px;
+div.card:hover{
+  height: 500px;
 }
 
-.wrapper .card .imgbx{
+div.imgbx{
   position: relative;
   margin: 0 auto;
   width: 260px;
@@ -881,22 +880,24 @@ width:80px;
 
 }
 
-.wrapper .card .staff-comntent{
+ div.staff-content{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: -140px;
   padding: 10px 15px;
-  text-align: center;
-  color: #000;
+  color: #0d0d0d;
   visibility: hidden;
   opacity: 0;
   transition: .5s ease-in-out;
 }
 
-.wrapper .card:hover .staff-comntent{
+.wrapper .card:hover .staff-content{
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
   transition-delay: .5s;
+
 }
-
-
