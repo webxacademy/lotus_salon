@@ -898,5 +898,21 @@ width:80px;
   margin-top: -40px;
   transition-delay: .5s;
 }
+.box{
+  
+  height: 15px;
+  margin-top: 20px;
 
 
+
+}
+.box a{
+  font-size: 15px;
+  padding: 16.8px;
+  background-color: #0d0d0d;
+  border-radius: 5px;
+}
+.box a i{
+  margin-top: 5px;
+  color: #00eafa;
+}
