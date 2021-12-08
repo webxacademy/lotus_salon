@@ -34,26 +34,71 @@ for (let i = 0; i < readMore.length; i++) {
   }
 }
 
-let review = document.querySelectorAll(".review-box");
+// slideShow = function(element, boxes){
+//   let countLeft = boxes.length-1;
+//   let countRight = 0;
+//   let boxNum = 0;
+//   let translateNum = 0;
+//
+//   if (element.id =="left-control") {
+//     if (countLeft) {
+//       boxNum = countLeft -1 ;
+//       translateNum = countLeft - boxNum;
+//       boxes[boxNum].style.transform = `translateX(${translateNum}*100px)`;
+//       boxes[boxNum].style.transition = `1s ease-in-out`;
+//
+//
+//     } else {
+//       console.log("Nothing should happen");
+//     }
+//
+//
+//   } else if (element.id="right-control") {
+//
+//   } else {
+//     console.log("Error of id!")
+//   }
+//
+// }
+
+
+let reviewbox = document.querySelectorAll(".review-box");
 let arrow = document.querySelectorAll(".click");
-arrow[0].onclick = function() {
-  console.log("clicked");
-  console.log(review.classList);
-};
+let countLeft = reviewbox.length-1;
+let countRight = 0;
 
-arrow[1].onclick = function() {
-review.classList.toggle("active");
-  alert("clicked");
-}
 
-let abc = function (array1, array2){
-  for (var i = 0; i < array.length; i++) {
+for (var i = 0; i < arrow.length; i++) {
+  arrow[i].addEventListener('click', function() {
+    // track the current elemnt before the click
+    let currentBox = reviewbox[reviewbox.length - countRight - 1];
 
-    for (var j = 0; j < array2.length; i++) {
-
+    if (this.id == "left-control"){
+      // currentBox.classList.toggle('slide');
+      if (countLeft) {
+        currentBox.style.transform = "translateX(350px)";
+        currentBox.style.transition = "1s ease-in-out";
+        countLeft -= 1;
+        countRight += 1;
+      }
     }
-  }
+
+
+      if (this.id == "right-control") {
+        if (countRight) {
+          // console.log("ayay");
+          currentBox = currentBox.nextElementSibling;
+          currentBox.style.transform = "translateX(0px)";
+          currentBox.style.transition = "1s ease-in-out";
+          countRight -=1;
+          countLeft +=1;
+        }
+
+      }
+
+  });
 }
+
 
 
 

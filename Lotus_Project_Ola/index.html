@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap"
     rel="stylesheet">
   <link src="modal.js">
+
+  <script src="https://kit.fontawesome.com/2537cc141b.js" crossorigin="anonymous"></script>
+</head>
 </head>
 
 <body>
@@ -474,11 +477,12 @@
       <div class="control">
 
         <span class ="click" id="left-control"> < </span>
-            <span class ="click" id="right-control"> > </span>
+        <span class ="click" id="right-control"> > </span>
 
             <div class="review-content">
-              <!-- Review 1 -->
-              <div class="review-box">
+
+              <!--Review 1-->
+              <div class="review-box" id="review-1">
                 <div class="pic-box">
                   <img src="assets/images/reviews/1.jpg" alt="">
                 </div>
@@ -490,7 +494,7 @@
               </div>
 
               <!-- Review 2 -->
-              <div class="review-box">
+              <div class="review-box" id="review-2">
                 <div class="pic-box">
                   <img src="assets/images/reviews/2.jpg" alt="">
                 </div>
@@ -502,7 +506,7 @@
               </div>
 
               <!-- Review 3 -->
-              <div class="review-box">
+              <div class="review-box" id="review-3">
                 <div class="pic-box">
                   <img src="assets/images/reviews/3.jpg" alt="">
                 </div>
@@ -514,9 +518,69 @@
               </div>
 
               <!-- Review 4 -->
-              <div class="review-box">
+              <div class="review-box" id="review 4">
                 <div class="pic-box">
                   <img src="assets/images/reviews/4.jpg" alt="">
+                </div>
+                <div class="review-message ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h3>Customer's Name</h3>
+                  <span>*****</span>
+                </div>
+              </div>
+
+              <!-- Review 5 -->
+              <div class="review-box" id="review-">
+                <div class="pic-box">
+                  <img src="assets/images/reviews/1.jpg" alt="">
+                </div>
+                <div class="review-message ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h3>Customer's Name</h3>
+                  <span>*****</span>
+                </div>
+              </div>
+
+              <!-- Review 6 -->
+              <div class="review-box" id="review-">
+                <div class="pic-box">
+                  <img src="assets/images/reviews/2.jpg" alt="">
+                </div>
+                <div class="review-message ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h3>Customer's Name</h3>
+                  <span>*****</span>
+                </div>
+              </div>
+
+              <!-- Review 7 -->
+              <div class="review-box" id="review-">
+                <div class="pic-box">
+                  <img src="assets/images/reviews/3.jpg" alt="">
+                </div>
+                <div class="review-message ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h3>Customer's Name</h3>
+                  <span>*****</span>
+                </div>
+              </div>
+
+              <!-- Review 8 -->
+              <div class="review-box" id="review-">
+                <div class="pic-box">
+                  <img src="assets/images/reviews/4.jpg" alt="">
+                </div>
+                <div class="review-message ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <h3>Customer's Name</h3>
+                  <span>*****</span>
+                </div>
+              </div>
+
+              <!-- Review 9 -->
+              <div class="review-box" id="review-">
+                <div class="pic-box">
+                  <img src="assets/images/reviews/2.jpg" alt="">
                 </div>
                 <div class="review-message ">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -549,14 +613,16 @@
         <div class="imgbx">
           <img src="assets/images/team/annie.jpg" alt="">
         </div>
-        <div class="staff-content">
-          <h3>Team Member name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
-          <ul class="social-media">
-            <li class="social-media-link"> <a href="#">Linkedin</a> </li>
-            <li class="social-media-link"> <a href="#">Linkedin</a> </li>
-            <li class="social-media-link"> <a href="#">Linkedin</a> </li>
-          </ul>
+        <div class="staff-comntent">
+            <h3>Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!--social-->
+            <div class="box">
+              <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+              <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+            </div>
         </div>
       </div>
 
@@ -564,40 +630,82 @@
         <div class="imgbx">
           <img src="assets/images/team/annika.jpg" alt="">
         </div>
-        <div class="staff-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+        <div class="staff-comntent">
+          <h3>Name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!--social-->
+          <div class="box">
+            <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+            <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a id="a"  href="#"><i class="fab fa-paper-plane"></i></a>
+          </div>
         </div>
       </div>
         <div class="card">
           <div class="imgbx">
             <img src="assets/images/team/ashley.jpg" alt="">
           </div>
-          <div class="staff-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+          <div class="staff-comntent">
+            <h3>Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!--social-->
+            <div class="box">
+              <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+              <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+            </div>
           </div>
         </div>
           <div class="card">
             <div class="imgbx">
               <img src="assets/images/team/callie.jpg" alt="">
             </div>
-            <div class="staff-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+            <div class="staff-comntent">
+              <h3>Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <!--social-->
+            <div class="box">
+              <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+              <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+            </div>
             </div>
           </div>
             <div class="card">
               <div class="imgbx">
                 <img src="assets/images/team/dani.jpg" alt="">
               </div>
-              <div class="staff-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+              <div class="staff-comntent">
+                <h3>Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <!--social-->
+              <div class="box">
+                <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+              </div>
               </div>
             </div>
               <div class="card">
                 <div class="imgbx">
                   <img src="assets/images/team/deidre.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+
+                  <h3>Name</h3>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <!--social-->
+                  <div class="box">
+                    <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                    <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                  </div>
                 </div>
               </div>
 
@@ -606,8 +714,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/gracie.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -616,8 +732,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/hannah.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -626,8 +750,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/jordyn.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -636,8 +768,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/krystal.jpg" alt="">
                 </div>
-                <div class="staff-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <!--social-->
+              <div class="box">
+                <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+              </div>
                 </div>
               </div>
 
@@ -646,8 +786,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/leanne.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -656,8 +804,16 @@
                 <div class="imgbx">
                   <img src="assets/images/team/maggie.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                  <h3>Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -666,8 +822,15 @@
                 <div class="imgbx">
                   <img src="assets/images/team/mandy.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
               </div>
 
@@ -676,8 +839,15 @@
                 <div class="imgbx">
                   <img src="assets/images/team/meghan.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+                <div class="staff-comntent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+                </div>
                 </div>
                 <div class="staff-contact">
 
@@ -689,9 +859,15 @@
                 <div class="imgbx">
                   <img src="assets/images/team/savannah.jpg" alt="">
                 </div>
-                <div class="staff-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
-                </div>
+                <div class="staff-comntent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!--social-->
+                <div class="box">
+                  <a id="a" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a id="a" href="#"><i class="fab fa-twitter"></i></a>
+                  <a id="a" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a id="a"  href="#"><i class="fas fa-paper-plane"></i></a>
+
               </div>
 
 
