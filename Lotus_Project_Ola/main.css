@@ -767,7 +767,7 @@ div.control{
 div.review-content{
   position: relative;
   display: flex;
-  width: 30%;
+  width: 350px;
   height: 400px;
   overflow: hidden;
   margin: 0 auto;
