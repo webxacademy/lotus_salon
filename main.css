@@ -736,3 +736,98 @@ div.review-message h3{
   transform: translateX(100%);
   transition: 1s ease-in-out;
 } */
+
+/*   TEAM   */
+
+.wrapper{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+
+}
+
+.wrapper .card {
+  position: relative;
+  max-width: 300px;
+  height: 260px;
+  background: rgba(255,255,255);
+  margin: 40px 20px;
+  padding: 0 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,.2);
+  border-radius: 4px;
+  transition: 1s ease-in-out;
+  line-height: 22px;
+}
+
+.wrapper .card:hover{
+  height: 420px;
+}
+
+.wrapper .card .imgbx{
+  position: relative;
+  margin: 0 auto;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  border-radius: 4px;
+  z-index: 1;
+  box-shadow: 0 3px #00eafa;
+
+}
+
+.wrapper .card .imgbx img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+
+
+}
+
+.wrapper .card .staff-comntent{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.wrapper .card:hover .staff-comntent{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: .5s;
+}
+
+.wrapper .card:hover .staff-comntent h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.box{
+  height: 10px;
+  margin-top: 20px;
+}
+.box a{
+  display: inline-block;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: 1s;
+}
+.box a:hover{
+background-color: #0d0d0d;
+transform: translate(0,-5px);
+}
+.box a i{
+font-size: 20px;
+margin-top: 1px;
+color: #00eafa;
+}
