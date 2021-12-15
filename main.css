@@ -961,3 +961,129 @@ color: #00eafa;
 #slider-span5:target ~ .img-slider {left: -25%;}
 #slider-span6:target ~ .img-slider {left: -50%;}
 #slider-span7:target ~ .img-slider {left: -70%;}
+
+
+
+
+/*   About Us   */
+
+.about-us{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+
+.about-us .about-main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.about-us .about-main .story{
+
+  width: 100%
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-us .about-main .story .our-story{
+  position: relative;
+  width: 30%;
+  height: 100vh;
+  text-align: center;
+  background: #00eafa;
+  color: #fff;
+
+
+}
+
+.about-us .about-main .story .our-story h1{
+  font-size: 70px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  min-width: 100%;
+  word-spacing: 5px;
+
+}
+
+
+.about-us .about-main .story .story-text{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+/*  justify-content: space-between;*/
+ width: 70%;
+ height: 100vh;
+  background: #ffc0cb;
+ color: #fdfbff;
+ padding: 100px;
+ line-height: 24px;
+}
+.about-us .about-main .story .story-text p{
+  padding-bottom: 25px;
+
+
+}
+
+.about-us .about-main .owners{
+  width: 100%;
+}
+
+.about-us .about-main .owners .owner-bio{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  background-attachment: scroll;
+  }
+
+.about-us .about-main .owners .about-owner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: space-between;*/
+  padding: 100px;
+  line-height: 24px;
+  width: 50%;
+  height: 100%;
+  background-color: #0d0d0d;
+  color: #00eafa;
+  word-spacing: .01px;
+}
+.about-us .about-main .owners .about-owner h1 {
+  padding-bottom: 35px;
+
+}
+
+.about-us .about-main .owners .owner1 .owner-img{
+  width: 50%;
+  height: 500px;
+  height: 100vh;
+  width: :100%;
+  background: url("assets/images/owners/1.jpg") no-repeat center fixed/*scroll*/;
+  background-size:cover;
+}
+
+.about-us .about-main .owners .owner2 .owner-img{
+  width: 50%;
+  height: 500px;
+  height: 100vh;
+  width: :100%;
+  background: url("assets/images/owners/2.jpg") no-repeat center fixed/*scroll*/;
+  background-size:cover;
+}
