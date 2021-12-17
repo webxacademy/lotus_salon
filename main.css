@@ -24,7 +24,7 @@ html{
 
 body{
   width: 100%;
-  background-color: #fdfbff;
+  background-color: #e6e6e6;
 }
 
 /* BUTTONS */
@@ -1095,4 +1095,89 @@ color: #00eafa;
   width: :100%;
   background: url("assets/images/owners/2.jpg") no-repeat center scroll/*scroll*/;
   background-size:cover;
+}
+.contact-details{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.one, .two, .three{
+  font-size: 25px;
+  margin-bottom: 5px;
+
+}
+
+.address-details, .phone-details, .email-details{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: gray;
+
+
+}
+h2{
+text-align: center;
+font-weight: 200;
+font-size: 3rem;
+margin-top: 80px;
+}
+h4{
+  font-weight: 400;
+  font-size: 2rem;
+}
+input[type=text]{
+  margin-top: 20px;
+  width: 600px;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #e6e6e6;
+  border-style: none;
+  border: 3px solid #ffc0cb;
+  border-radius: 5px;
+}
+textarea{
+  width: 600px;
+  height: 180px;
+  margin-top: 20px;
+  background-color:#e6e6e6;
+  border-style: none;
+  border: 3px solid #ffc0cb;
+  border-radius: 10px;
+}
+
+.box-1{
+  margin-left: 80px;
+}
+.loc-1{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.loc-2{
+  padding-top: 80px;
+}
+.box-2{
+  padding: 20px 30px;
+  background-color: #00eafa;
+  border-radius: 10px;
+
+}
+input[type=submit]{
+  font-style: bold;
+  height: 80px;
+  width: 180px;
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  border-style: none;
+  color: #0d0d0d;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+input[type=submit]:hover{
+  transform: translate(0,-10px);
+  background-color: #ffc0cb;
+  color: #fff;
 }
