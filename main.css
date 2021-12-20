@@ -215,7 +215,7 @@ nav.sticky{
   justify-content: space-around;
   align-items: center;
   z-index: -5;
-  transition: 2s;
+  transition: 1s;
   overflow: hidden;
 }
 
@@ -247,7 +247,7 @@ transform: translateX(0);
   position: relative;
   margin-left: 20px;
   list-style: none;
-  transition: 4s;
+  transition: 3s;
 }
 
 .menuList ul li::before{
@@ -267,7 +267,7 @@ transform: translateX(0);
   text-decoration: none;
   color: #00eafa;
   font-family: "Josefin Sans";
-  transition: 1s;
+
 }
 
 .menuList ul li a:hover{
@@ -1230,7 +1230,7 @@ color:#fdfbff;
   color:  #fdfbff;
   font-size: 14px;
   line-height: 16px;
-  transition: .2s;
+  
 }
 
 .footer .col-1 .locations .add a{
@@ -1248,7 +1248,30 @@ color:#fdfbff;
   line-height: 20px;
 }
 
-.footer .col-1 .copy-right p span{
+
+.footer .col-1 .copy-right p a {
+  position: relative;
+  text-decoration: none;
+
+}
+
+.footer .col-1 .copy-right p a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-bottom: solid #ffc0cb 2px;
+  transition: 1s;
+
+}
+
+.footer .col-1 .copy-right p:hover a::before {
+  width: 100%;
+}
+
+
+.footer .col-1 .copy-right p a span{
   color: #00eafa;
 }
 .footer .col-2 .Links{
