@@ -1208,6 +1208,7 @@ input[type=submit]:hover{
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-bottom: 50px;
 
 }
 
@@ -1242,10 +1243,6 @@ color:#fdfbff;
 
 }
 
-.footer .col-1 .copy-right{
-  margin-top: 80px;
-
-}
 
 .footer .col-1 .copy-right p{
   line-height: 20px;
@@ -1308,12 +1305,13 @@ text-decoration: none;
 
 }
 
-.footer .col-3 .news-letter form input#join{
+.footer .col-3 .news-letter form input[type="text"]{
   width: 300px;
   height: 40px;
   border: none;
   border-radius: 0;
   margin-bottom: 10px;
+  color: #0d0d0d;
 }
 
 .footer .col-3 .news-letter form input[type="button"]{
