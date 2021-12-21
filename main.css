@@ -1181,3 +1181,194 @@ input[type=submit]:hover{
   background-color: #ffc0cb;
   color: #fff;
 }
+
+/*   FOOTER   */
+
+#footer {
+  width: 100%;
+  background: #0d0d0d;
+  display: flex;
+  color: white;
+  font-weight: lighter;
+}
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 50px 20px;
+}
+
+.footer h3{
+  margin-bottom: 10px;
+}
+
+.footer .col-1 .locations{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.footer .col-1 .locations .add1{
+  margin-right: 50px;
+}
+
+.footer .col-1 .locations .add{
+  margin-bottom: 10px;
+  color:#fdfbff;
+
+}
+.footer .col-1 .locations .add h3{
+color:#fdfbff;
+
+}
+
+.footer .col-1 .locations .add p{
+  color:  #fdfbff;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.footer .col-1 .locations .add a{
+  text-decoration: none;
+
+}
+
+.footer .col-1 .locations .add a:hover p{
+  color:  #00eafa;
+
+}
+
+
+.footer .col-1 .copy-right p{
+  line-height: 20px;
+}
+
+
+.footer .col-1 .copy-right p a {
+  position: relative;
+  text-decoration: none;
+
+}
+
+.footer .col-1 .copy-right p a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-bottom: solid #ffc0cb 2px;
+  transition: 1s;
+
+}
+
+.footer .col-1 .copy-right p:hover a::before {
+  width: 100%;
+}
+
+
+.footer .col-1 .copy-right p a span{
+  color: #00eafa;
+}
+.footer .col-2 .Links{
+  margin-bottom: 50px;
+}
+
+.footer .col-2 .Links a{
+  display: block;
+  text-decoration: none;
+  color: #fdfbff;
+  margin-bottom: 10px;
+}
+
+.footer .col-2 .Links a span{
+  color: #00eafa;
+}
+
+
+
+.footer .col-2 .Links a:hover{
+  color:  #00eafa;
+}
+
+.footer .col-2 .media .connect {
+  margin-top: 20px;
+}
+
+.footer .col-2 .media .connect h3{
+  margin-bottom: 10px;
+}
+.footer .col-2 .media .connect a{
+  margin-right: 25px;
+
+}
+
+
+.footer .col-2 .media a{
+color:  #00eafa;
+text-decoration: none;
+
+}
+
+.footer .col-2 .media .connect a:hover i{
+  color: #fdfbff;
+  transform: scale(1.5);
+}
+
+.footer .col-3 .news-letter form{
+  width: 300px;
+
+}
+
+.footer .col-3 .news-letter form label{
+
+}
+
+.footer .col-3 .news-letter form input[type="text"]{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  color: #0d0d0d;
+}
+
+.footer .col-3 .news-letter form input[type="button"]{
+  width: 100px;
+  padding: 6px 4px;
+  margin-top: 0;
+  border: none;
+  cursor: pointer;
+  border: solid 1px #fdfbff;
+}
+
+.footer .col-3 .news-letter form input[type="button"]:hover{
+  color: #00eafa;
+  background: #0d0d0d;
+  border: solid #fdfbff 1px;
+}
+
+.footer .col-3 .apps{
+  margin-top: 100px;
+}
+
+.footer .col-3 .apps h3{
+  margin-bottom: 20px;
+}
+
+.footer .col-3 .apps .app1,
+.footer .col-3 .apps .app2{
+  display: inline-block;
+
+}
+.footer .col-3 .apps .app1{
+  margin-right: 10px;
+}
+
+.footer .col-3 .apps .app1:hover a img,
+.footer .col-3 .apps .app2:hover a img{
+  transform: scale(1.04);
+}
