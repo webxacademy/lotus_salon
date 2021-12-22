@@ -635,6 +635,11 @@ width:80px;
 div.control{
   position: relative;
   width: 100%;
+  background: url("assets/images/review/1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
 }
 
 #left-control, #right-control {
@@ -647,10 +652,14 @@ div.control{
 }
 .control #left-control{
   left:20%;
+  color: #00eafa;
+
 }
 
 .control #right-control{
   right:20%;
+  color: #ffc0cb;
+
 }
 
 .control #right-control:hover,
@@ -668,6 +677,7 @@ div.review-content{
   overflow: hidden;
   margin: 0 auto;
 
+
 }
 
 div.review-box{
@@ -679,8 +689,9 @@ div.review-box{
   margin-left: 20px ;
   margin-bottom: 20px;
   padding:0 40px;
-  background: #eee;
   display: flex;
+  background: rgba(0,0,0,.05);
+  color: #fdfbff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -728,12 +739,25 @@ div.review-message{
 div.review-message p{
  font-style: italic;
  margin-top: 20px;
+ font-size: 20px;
+ line-height: 22px;
+font-weight: lighter;
 
 }
 
 div.review-message h3{
   margin: 50px 0 20px;
+  font-size:25px;
+  color: #00eafa;
+  font-weight: lighter;
 }
+
+div.review-message span i{
+  color: #ffc0cb;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 
 /* .slide {
   transform: translateX(100%);
@@ -1096,4 +1120,323 @@ color: #00eafa;
   width: :100%;
   background: url("assets/images/owners/2.jpg") no-repeat center scroll/*scroll*/;
   background-size:cover;
+}
+
+
+
+/*   CONTACT US   */
+
+#contact-us{
+  color: #0d0d0d;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  background: url("assets/images/contactUS/2.jpeg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  filter: saturate(50%);
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+
+#contact-us .container .overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+
+#contact-us .contact-box{
+  position: relative;
+  width: 100%
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-us .contact-details{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  font-weight: lighter;
+  padding: 0 50px;
+}
+
+
+input[type=text]{
+  margin-top: 20px;
+  width: 600px;
+  height: 50px;
+  background-color: #fff;
+  border-style: none;
+  border: none;
+
+}
+textarea{
+  width: 600px;
+  height: 180px;
+  margin-top: 20px;
+  background-color:#fff;
+  border-style: none;
+  border: none;
+  }
+
+
+
+.box-1{
+  padding: 20px 30px;
+  background-color: #00eafa;
+}
+
+.box-1 form h3{
+  font-size: 30px;
+  text-align: left;
+  font-weight: lighter;
+
+}
+
+.box-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-2 .loc-1{
+  margin-bottom: 50px;
+}
+
+.box-2 .loc-1 h3,
+.box-2 .loc-2 h3{
+margin: 10px 0 5px 0;
+}
+
+.box-2 .loc-1 p,
+.box-2 .loc-2 p{
+  font-size: 18px;
+}
+
+
+input[type=submit]{
+  cursor: pointer;
+  padding: 10px 40px;
+  margin-top: 20px;
+  border-style: none;
+  color: #0d0d0d;
+  font-size: 20px;
+  background: #fff;
+  border: solid 1px #fdfbff;
+
+}
+input[type=submit]:hover{
+    border: solid 1px #fdfbff;
+  background-color: #0d0d0d;
+  color: #00eafa;
+
+}
+
+
+
+
+/*   FOOTER   */
+
+#footer {
+  width: 100%;
+  background: #0d0d0d;
+  display: flex;
+  color: white;
+  font-weight: lighter;
+
+}
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 50px 20px;
+}
+
+.footer h3{
+  margin-bottom: 10px;
+}
+
+.footer .col-1 .locations{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.footer .col-1 .locations .add1{
+  margin-right: 50px;
+}
+
+.footer .col-1 .locations .add{
+  margin-bottom: 10px;
+  color:#fdfbff;
+
+}
+.footer .col-1 .locations .add h3{
+color:#fdfbff;
+
+}
+
+.footer .col-1 .locations .add p{
+  color:  #fdfbff;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.footer .col-1 .locations .add a{
+  text-decoration: none;
+
+}
+
+.footer .col-1 .locations .add a:hover p{
+  color:  #00eafa;
+
+}
+
+
+.footer .col-1 .copy-right p{
+  line-height: 20px;
+}
+
+
+.footer .col-1 .copy-right p a {
+  position: relative;
+  text-decoration: none;
+
+}
+
+.footer .col-1 .copy-right p a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-bottom: solid #ffc0cb 2px;
+  transition: 1s;
+
+}
+
+.footer .col-1 .copy-right p:hover a::before {
+  width: 100%;
+}
+
+
+.footer .col-1 .copy-right p a span{
+  color: #00eafa;
+}
+.footer .col-2 .Links{
+  margin-bottom: 50px;
+}
+
+.footer .col-2 .Links a{
+  display: block;
+  text-decoration: none;
+  color: #fdfbff;
+  margin-bottom: 10px;
+}
+
+.footer .col-2 .Links a span{
+  color: #00eafa;
+}
+
+
+
+.footer .col-2 .Links a:hover{
+  color:  #00eafa;
+}
+
+.footer .col-2 .media .connect {
+  margin-top: 20px;
+}
+
+.footer .col-2 .media .connect h3{
+  margin-bottom: 10px;
+}
+.footer .col-2 .media .connect a{
+  margin-right: 25px;
+
+}
+
+
+.footer .col-2 .media a{
+color:  #00eafa;
+text-decoration: none;
+
+}
+
+.footer .col-2 .media .connect a:hover i{
+  color: #fdfbff;
+  transform: scale(1.5);
+}
+
+.footer .col-3 .news-letter form{
+  width: 300px;
+
+}
+
+.footer .col-3 .news-letter form label{
+
+}
+
+.footer .col-3 .news-letter form input[type="text"]{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  color: #0d0d0d;
+}
+
+.footer .col-3 .news-letter form input[type="button"]{
+  width: 100px;
+  padding: 6px 4px;
+  margin-top: 0;
+  border: none;
+  cursor: pointer;
+  border: solid 1px #fdfbff;
+}
+
+.footer .col-3 .news-letter form input[type="button"]:hover{
+  color: #00eafa;
+  background: #0d0d0d;
+  border: solid #fdfbff 1px;
+}
+
+.footer .col-3 .apps{
+  margin-top: 100px;
+}
+
+.footer .col-3 .apps h3{
+  margin-bottom: 20px;
+}
+
+.footer .col-3 .apps .app1,
+.footer .col-3 .apps .app2{
+  display: inline-block;
+
+}
+.footer .col-3 .apps .app1{
+  margin-right: 10px;
+}
+
+.footer .col-3 .apps .app1:hover a img,
+.footer .col-3 .apps .app2:hover a img{
+  transform: scale(1.04);
 }
