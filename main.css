@@ -632,6 +632,11 @@ width:80px;
 div.control{
   position: relative;
   width: 100%;
+  background: url("assets/images/review/1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
 }
 
 #left-control, #right-control {
@@ -644,10 +649,14 @@ div.control{
 }
 .control #left-control{
   left:20%;
+  color: #00eafa;
+
 }
 
 .control #right-control{
   right:20%;
+  color: #ffc0cb;
+
 }
 
 .control #right-control:hover,
@@ -665,6 +674,7 @@ div.review-content{
   overflow: hidden;
   margin: 0 auto;
 
+
 }
 
 div.review-box{
@@ -676,8 +686,9 @@ div.review-box{
   margin-left: 20px ;
   margin-bottom: 20px;
   padding:0 40px;
-  background: #eee;
   display: flex;
+  background: rgba(0,0,0,.05);
+  color: #fdfbff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -725,12 +736,25 @@ div.review-message{
 div.review-message p{
  font-style: italic;
  margin-top: 20px;
+ font-size: 20px;
+ line-height: 22px;
+font-weight: lighter;
 
 }
 
 div.review-message h3{
   margin: 50px 0 20px;
+  font-size:25px;
+  color: #00eafa;
+  font-weight: lighter;
 }
+
+div.review-message span i{
+  color: #ffc0cb;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 
 /* .slide {
   transform: translateX(100%);
@@ -1100,11 +1124,32 @@ color: #00eafa;
 /*   CONTACT US   */
 
 #contact-us{
+  color: #0d0d0d;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  background: url("assets/images/contactUS/2.jpeg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  filter: saturate(50%);
   width: 100%;
   height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
+}
+
+
+#contact-us .container .overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
 }
 
 #contact-us .contact-box{
@@ -1209,7 +1254,7 @@ input[type=submit]:hover{
   display: flex;
   color: white;
   font-weight: lighter;
-  margin-top: 50px;
+
 }
 .footer{
   width: 100%;
