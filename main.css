@@ -998,7 +998,7 @@ color: #00eafa;
 .about-us .about-main .story .our-story{
   position: relative;
   width: 30%;
-  height: 100vh;
+  height: 700px;
   text-align: center;
   background: #00eafa;
   color: #fff;
@@ -1026,7 +1026,7 @@ color: #00eafa;
   align-items: center;
 /*  justify-content: space-between;*/
  width: 70%;
- height: 100vh;
+ height: 700px;
   background: #ffc0cb;
  color: #fdfbff;
  padding: 100px;
@@ -1046,7 +1046,7 @@ color: #00eafa;
 
 .about-us .about-main .owners .owner-bio{
   width: 100%;
-  height: 100vh;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1059,7 +1059,7 @@ color: #00eafa;
   flex-direction: column;
   align-items: center;
   /*justify-content: space-between;*/
-  padding: 100px;
+  padding: 50px;
   line-height: 24px;
   width: 50%;
   height: 100%;
@@ -1081,8 +1081,7 @@ color: #00eafa;
 
 .about-us .about-main .owners .owner1 .owner-img{
   width: 50%;
-  height: 500px;
-  height: 100vh;
+  height: 100%;
   width: :100%;
   background: url("assets/images/owners/1.jpg") no-repeat center scroll/*scroll*/;
   background-size:cover;
@@ -1090,8 +1089,7 @@ color: #00eafa;
 
 .about-us .about-main .owners .owner2 .owner-img{
   width: 50%;
-  height: 500px;
-  height: 100vh;
+  height: 100%;
   width: :100%;
   background: url("assets/images/owners/2.jpg") no-repeat center scroll/*scroll*/;
   background-size:cover;
