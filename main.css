@@ -1267,13 +1267,14 @@ input[type=submit]:hover{
   color: white;
   font-weight: lighter;
 
+
 }
 .footer{
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: top;
-  padding: 50px 20px;
+  padding: 100px 50px 50px;
 }
 
 .footer h3{
